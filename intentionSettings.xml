@@ -1,5 +1,9 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Python/Convert 'from module import' to 'import module'" />
+    <ignoreAction name="Python/Convert dict constructor to dict literal form" />
+    <ignoreAction name="Python/Convert dict literal to dict constructor" />
+    <ignoreAction name="Python/Convert from variadic to normal parameter(s)" />
+    <ignoreAction name="Python/Convert method to property" />
   </component>
 </application>
