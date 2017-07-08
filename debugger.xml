@@ -1,0 +1,26 @@
+<application>
+  <component name="XDebuggerSettings">
+    <data-views />
+    <general />
+    <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
+      <debugger id="python">
+        <configuration>
+          <option name="librariesFilterEnabled" value="true" />
+          <option name="steppingFilters">
+            <list>
+              <PySteppingFilter>
+                <option name="filter" value="log*.py" />
+              </PySteppingFilter>
+            </list>
+          </option>
+          <option name="steppingFiltersEnabled" value="true" />
+        </configuration>
+      </debugger>
+    </debuggers>
+  </component>
+</application>
