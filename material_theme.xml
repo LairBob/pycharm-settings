@@ -3,5 +3,6 @@
     <option name="highlightColor" value="80cbc4" />
     <option name="highlightColorEnabled" value="true" />
     <option name="isBoldTabs" value="true" />
+    <option name="tabsHeight" value="25" />
   </component>
 </application>
