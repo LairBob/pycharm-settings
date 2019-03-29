@@ -4,7 +4,7 @@
     <property name="created">2019-03-29T13:41:18</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-03-29T15:00:33</property>
+    <property name="modified">2019-03-29T15:57:05</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <console-font>
@@ -665,7 +665,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="3235ff" />
+        <option name="FOREGROUND" value="7774ff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -868,7 +868,8 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="939293" />
-        <option name="BACKGROUND" value="403e41" />
+        <option name="EFFECT_COLOR" value="6e6e6e" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
