@@ -1,0 +1,9 @@
+<templateSet group="Python">
+  <template name="cls" value="&#10;&#10;class $CLASS_NAME$:&#10;    def __init__(self, $PARM_01$):&#10;        pass&#10; &#10; $END$" description="Class basics" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARM_01" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
