@@ -1,0 +1,18 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="allowDataCollection" value="true" />
+    <option name="darkTitleBar" value="true" />
+    <option name="isCompactMenus" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isContrastMode" value="true" />
+    <option name="isHighContrast" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="useMaterialFont2" value="true" />
+    <option name="settingsSelectedTab" value="5" />
+    <option name="accentColor" value="a7ddf1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="userId" value="-4420ee58:1696a193064:-8000" />
+    <option name="version" value="3.8.0.2" />
+  </component>
+</application>

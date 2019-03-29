@@ -1,0 +1,273 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="163">
+    <driver id="db2">
+      <artifact name="DB2" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="db2.jtopen">
+      <artifact name="JTOpen (DB2 iSeries)" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="derby.embedded">
+      <artifact name="Apache Derby" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="derby.remote">
+      <artifact name="Apache Derby" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="azure.ms">
+      <artifact name="SQL Server" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="sqlserver.ms">
+      <artifact name="SQL Server" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.jtds">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.ase">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="mysql">
+      <artifact name="MySQL Connector/J" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="mariadb">
+      <artifact name="MariaDB Connector J" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="oracle">
+      <artifact name="Oracle" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="false" />
+    </driver>
+    <driver id="postgresql">
+      <artifact name="PostgreSQL" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+    </driver>
+    <driver id="redshift">
+      <artifact name="Redshift" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+    </driver>
+    <driver id="hsqldb.local">
+      <artifact name="HSQLDB" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hsqldb.remote">
+      <artifact name="HSQLDB" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="h2.unified">
+      <artifact name="H2" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sqlite.xerial">
+      <artifact name="Xerial SQLiteJDBC" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="clickhouse">
+      <artifact name="ClickHouse" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="cassandra">
+      <artifact name="Cassandra" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="java.sql.Driver" name="BigQuery" dialect="GenericSQL" driver-class="com.simba.googlebigquery.jdbc42.Driver">
+      <url-template name="default" template="jdbc:bigquery://[{host::https\://www.googleapis.com/bigquery/v2}[:{port::443}]][&lt;;,{:identifier}={:param}&gt;]" />
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+      <option name="schema-control" value="AUTOMATIC" />
+      <property name="OAuthType" value="0" />
+      <property name="OAuthServiceAcctEmail" value="fluencymediaannarbor@gmail.com" />
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/animal-sniffer-annotations-1.14.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/api-common-1.7.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/avro-1.8.2.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/checker-compat-qual-2.5.2.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/commons-codec-1.10.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/commons-compress-1.8.1.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/commons-lang3-3.5.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/commons-logging-1.2.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/error_prone_annotations-2.1.3.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/gax-1.40.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/gax-grpc-1.40.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-api-client-1.28.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-api-services-bigquery-v2-rev426-1.25.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-auth-library-credentials-0.13.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-auth-library-oauth2-http-0.13.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-cloud-bigquerystorage-0.81.0-alpha.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-cloud-core-1.63.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-cloud-core-grpc-1.63.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-http-client-1.28.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-http-client-apache-2.0.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-http-client-jackson2-1.28.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/google-oauth-client-1.28.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/GoogleBigQueryJDBC42.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-alts-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-auth-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-context-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-core-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-google-cloud-bigquerystorage-v1beta1-0.46.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-grpclb-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-netty-shaded-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-protobuf-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-protobuf-lite-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/grpc-stub-1.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/gson-2.7.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/guava-26.0-android.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/httpclient-4.5.5.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/httpcore-4.4.9.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/j2objc-annotations-1.1.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/jackson-core-2.9.6.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/jackson-core-asl-1.9.13.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/jackson-mapper-asl-1.9.13.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/javax.annotation-api-1.2.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/joda-time-2.10.1.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/jsr305-3.0.2.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/opencensus-api-0.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/opencensus-contrib-grpc-metrics-0.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/opencensus-contrib-http-util-0.18.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/paranamer-2.7.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/proto-google-cloud-bigquerystorage-v1beta1-0.46.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/proto-google-common-protos-1.14.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/proto-google-iam-v1-0.12.0.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/protobuf-java-3.6.1.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/protobuf-java-util-3.6.1.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/slf4j-api-1.7.7.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/snappy-java-1.1.1.3.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/threetenbp-1.3.3.jar</url>
+      </library>
+      <library>
+        <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/xz-1.5.jar</url>
+      </library>
+      <code-style-scheme-name>Default</code-style-scheme-name>
+    </driver>
+  </component>
+</application>
