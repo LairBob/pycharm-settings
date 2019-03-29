@@ -4,7 +4,7 @@
     <property name="created">2019-03-29T13:41:18</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-03-29T15:57:05</property>
+    <property name="modified">2019-03-29T16:35:28</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <console-font>
@@ -21,7 +21,7 @@
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="fcfcfa" />
-    <option name="CARET_ROW_COLOR" value="222222" />
+    <option name="CARET_ROW_COLOR" value="191919" />
     <option name="CONSOLE_BACKGROUND_KEY" value="2d2a2e" />
     <option name="DELETED_LINES_COLOR" value="ff6188" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
@@ -63,7 +63,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="59575a" />
     <option name="SELECTED_INDENT_GUIDE" value="78dce8" />
     <option name="SELECTED_TEARLINE_COLOR" value="78dce8" />
-    <option name="SELECTION_BACKGROUND" value="484642" />
+    <option name="SELECTION_BACKGROUND" value="3c3a36" />
     <option name="SELECTION_FOREGROUND" value="ffffff" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="403e41" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="ffd866" />
@@ -565,7 +565,8 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="a9dc76" />
+        <option name="FOREGROUND" value="42dc1b" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -619,7 +620,7 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="a9dc76" />
+        <option name="FOREGROUND" value="42dc1b" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -644,11 +645,6 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="fcfcfa" />
-      </value>
-    </option>
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="a9dc76" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -743,11 +739,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_METHOD">
-      <value>
-        <option name="FOREGROUND" value="a9dc76" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="ffd866" />
@@ -1004,7 +996,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="fffbf7" />
+        <option name="EFFECT_COLOR" value="706855" />
         <option name="ERROR_STRIPE_COLOR" value="4d6168" />
       </value>
     </option>
