@@ -10,6 +10,10 @@
           <option name="url" value="https://github.com/FluencyMedia/py_util.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/LairBob/py_util.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Dev" />
