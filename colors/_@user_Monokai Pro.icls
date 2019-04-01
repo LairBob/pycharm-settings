@@ -4,7 +4,7 @@
     <property name="created">2019-03-29T13:41:18</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.1.0.0</property>
-    <property name="modified">2019-03-29T18:43:53</property>
+    <property name="modified">2019-04-01T13:25:21</property>
     <property name="originalScheme">Monokai Pro</property>
   </metaInfo>
   <console-font>
@@ -64,7 +64,7 @@
     <option name="SELECTED_INDENT_GUIDE" value="78dce8" />
     <option name="SELECTED_TEARLINE_COLOR" value="78dce8" />
     <option name="SELECTION_BACKGROUND" value="2b2926" />
-    <option name="SELECTION_FOREGROUND" value="ffffff" />
+    <option name="SELECTION_FOREGROUND" value="cccccc" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="403e41" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="ffd866" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="ffd866" />
@@ -1168,7 +1168,15 @@
         <option name="FOREGROUND" value="ff6188" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
+      <value />
+    </option>
+    <option name="KOTLIN_LABEL">
       <value />
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
