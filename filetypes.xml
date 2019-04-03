@@ -13,6 +13,7 @@
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="lock" type="JSON" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping ext="pickle" type="PLAIN_TEXT" />
     </extensionMap>
