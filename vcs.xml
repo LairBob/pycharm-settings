@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/FluencyMedia/mode_dev.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/LairBob/gcp-pycharm-docker.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Dev" />
