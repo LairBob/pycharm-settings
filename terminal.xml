@@ -1,7 +1,7 @@
 <application>
   <component name="TerminalOptionsProvider">
     <envs>
-      <env key="GOOGLE_APPLICATION_CREDENTIALS" value="C:/Dev/bc360_bq_manager/bc360-bq-cred-python.json" />
+      <env key="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Dev\bc360_bq_manager\bc360-bq-cred-python.json" />
     </envs>
     <option name="myShellPath" value="powershell" />
     <option name="myTabName" value="Powershell" />
