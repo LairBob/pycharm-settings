@@ -16,6 +16,8 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping ext="doctree" type="PLAIN_TEXT" />
       <mapping ext="pickle" type="PLAIN_TEXT" />
+      <mapping ext="lookml" type="YAML" />
+      <mapping ext="lkml" type="YAML" />
     </extensionMap>
   </component>
 </application>
