@@ -114,14 +114,18 @@
       <artifact name="Snowflake" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="java.sql.Driver" name="BigQuery" dialect="GenericSQL" driver-class="com.simba.googlebigquery.jdbc42.Driver">
+    <driver id="java.sql.Driver" name="BC360 - Main" dialect="GenericSQL" driver-class="com.simba.googlebigquery.jdbc42.Driver" icon="/icons/driverBlue1.svg">
       <url-template name="default" template="jdbc:bigquery://[{host::https\://www.googleapis.com/bigquery/v2}[:{port::443}]][&lt;;,{:identifier}={:param}&gt;]" />
       <option name="auto-commit" value="true" />
       <option name="auto-sync" value="true" />
       <option name="send-app-info" value="true" />
       <option name="schema-control" value="AUTOMATIC" />
+      <option name="format-sources-on-sync" value="true" />
+      <option name="source-loading" value="USER_SOURCES" />
       <property name="OAuthType" value="0" />
-      <property name="OAuthServiceAcctEmail" value="fluencymediaannarbor@gmail.com" />
+      <property name="OAuthServiceAcctEmail" value="datagrip@bc360-main.iam.gserviceaccount.com" />
+      <property name="OAuthPvtKeyPath" value="C:\Dev\gcp_cred\bc360-main-6318cdca83bd.json" />
+      <property name="ProjectId" value="bc360-main" />
       <library>
         <url>file://C:/drivers/SimbaJDBCDriverforGoogleBigQuery42_1.2.0.1000/animal-sniffer-annotations-1.14.jar</url>
       </library>
